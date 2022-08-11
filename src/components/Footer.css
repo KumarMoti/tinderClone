@@ -1,0 +1,47 @@
+.footer-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+}
+
+body{
+  background: #eaecef;
+}
+
+.footer-btn .replay {
+  padding: 3v important;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+  color: aqua;
+}
+
+.footer-btn .close {
+  padding: 3v important;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 0, 0);
+}
+
+.footer-btn .favorite {
+  padding: 3v important;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+  color: rgb(22, 241, 22);
+}
+
+.footer-btn .star {
+  padding: 3v important;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+  color: rgb(0, 67, 182);
+}
+
+.footer-btn .flash {
+  padding: 3v important;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+  color: rgb(245, 15, 99);
+}
+
+.footer-btn .close:hover {
+  border: 2px green;
+  /* background-color: #000; */
+}
